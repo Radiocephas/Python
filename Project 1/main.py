@@ -26,6 +26,15 @@ print(my_pi)
 
 #BOOLEAN
 
-is_alive = True
+is_alive = False
 
 print(f"Are you alive?: {is_alive}")
+
+if is_alive:
+    print("You are alive!")
+else:
+    print("You are dead!")
+
+#TYPECASTING
+
+print(type(first_name))
