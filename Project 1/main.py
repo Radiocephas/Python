@@ -22,7 +22,9 @@ print(a[:60])
 print(a.strip())
 print(a.replace("i", "o"))
 
-price = 59
-txt = f"The price is {price:.2f} dollars"
-print(txt)
+# # price = 59
+# txt = "We are the so-called \xhhVikings\xhh from the north."
+# print(txt)
 
+print(bool("Hello"))
+print(bool(15))
