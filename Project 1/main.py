@@ -1,2 +1,5 @@
-mainList = list(("apple", 3, True))
-print(mainList)
+thislist = ["apple", "banana", "cherry"]
+thislist.append("goatmeat")
+roommates = ["Tega", "Samseph", "Ben"]
+thislist.extend(roommates)
+print(thislist)
