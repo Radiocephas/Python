@@ -1,2 +1,2 @@
-thislist = ["apple", 3, "Goat", True]
-print (len(thislist))
+mainList = list(("apple", 3, True))
+print(mainList)
