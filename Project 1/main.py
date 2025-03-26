@@ -1,7 +1,3 @@
 thislist = ["apple", "banana", "cherry"]
-thislist.append("goatmeat")
-roommates = ["Tega", "Samseph", "Ben"]
-roommates.insert(0, "Mango")
-thislist.extend(roommates)
-thislist.pop()
-print(thislist)
+for i in range(len(thislist)):
+  print(thislist[i])
